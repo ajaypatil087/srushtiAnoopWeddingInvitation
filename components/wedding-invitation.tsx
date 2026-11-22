@@ -4,19 +4,45 @@ import { useState } from "react";
 
 const celebrations = [
   {
+    day: "MONDAY",
+    date: "30 November 2026",
+    venue: "Srushti Ceramics & Granites, Market Road, Opposite Laxminarayan Temple, Chikkamagaluru",
+    events: [
+      [
+        "7:00 AM – 8:00 AM",
+        "CHAPPARA POOJA",
+        "An auspicious beginning to the wedding celebrations, seeking blessings for the couple.",
+      ],
+      ["6:00 PM – 8:00 PM", "MEHENDI", "An evening filled with henna, laughter, music, and joyful moments."],
+    ],
+  },
+  {
+    day: "TUESDAY",
+    date: "1 December 2026",
+    venue: "Srushti Ceramics & Granites, Market Road, Opposite Laxminarayan Temple, Chikkamagaluru",
+    events: [
+      ["9:00 AM – 11:00 AM", "DEVAKARYA POOJA", "A sacred ceremony seeking divine blessings for the auspicious wedding."],
+      [
+        "12:00 PM – 3:00 PM",
+        "BANGLE CEREMONY",
+        "A joyful celebration filled with colourful bangles, blessings, and togetherness.",
+      ],
+    ],
+  },
+  {
     day: "WEDNESDAY",
     date: "2 December 2026",
-    venue: "Seeta Dayanand Pai Kalyana Mantapa, Hiremagluru, Chikkamagaluru",
+    venue: "Seeta Dayanand Pai Kalyana Mantapa, Hiremagaluru, Chikkamagaluru",
     events: [
-      ["8:00 AM – 10:00 AM", "HALDI", "A celebration with family and friends."],
-      ["7:30 PM onwards", "SANGEET", "An evening of music and dancing."],
+      ["8:00 AM – 10:00 AM", "HALDI", "A vibrant celebration of love, laughter, and golden moments with family and friends."],
+      ["7:30 PM onwards", "SANGEET", "An unforgettable evening of music, dance, and celebration."],
     ],
   },
   {
     day: "THURSDAY",
     date: "3 December 2026",
-    venue: "Seeta Dayanand Pai Kalyana Mantapa, Hiremagluru, Chikkamagaluru",
-    events: [["8:00 AM – 9:00 AM", "WEDDING CEREMONY", "Join us as we begin our life together."]],
+    venue: "Seeta Dayanand Pai Kalyana Mantapa, Hiremagaluru, Chikkamagaluru",
+    events: [["8:00 AM – 9:00 AM", "WEDDING CEREMONY", "Join us as two hearts unite and a beautiful new journey begins."]],
   },
 ];
 
